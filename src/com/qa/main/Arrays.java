@@ -9,5 +9,19 @@ public class Arrays
 				numberArray[6] + " " + numberArray[7] + " " + numberArray[8] + " " +
 				numberArray[9]);
 	}
+	
+	public void createAndPopulateArray(int currentArrayNumber, int numberArray[])
+	{
+		
+		while (currentArrayNumber <= 10)
+		{
+			for (int i = 0; i < 10; i++)
+			{
+				numberArray[i] = currentArrayNumber;
+				System.out.println(numberArray[i]);
+			}
+			currentArrayNumber++;
+		}
+	}
 
 }

@@ -8,7 +8,10 @@ public class Runner
 		// TODO Auto-generated method stub
 		int [] numberArray = {3, 5, 6, 1, 2, 9, 7, 8, 4, 3};
 		Arrays user = new Arrays();
+		int currentArrayNumber = 1;
+		
 		user.outputArray(numberArray);
+		user.createAndPopulateArray(currentArrayNumber, numberArray);
 
 	}
 
